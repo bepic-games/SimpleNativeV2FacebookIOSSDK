@@ -1,0 +1,6 @@
+framework module SimpleNativeFacebook {
+  umbrella header "SimpleNativeFacebook.h"
+
+  export *
+  module * { export * }
+}
