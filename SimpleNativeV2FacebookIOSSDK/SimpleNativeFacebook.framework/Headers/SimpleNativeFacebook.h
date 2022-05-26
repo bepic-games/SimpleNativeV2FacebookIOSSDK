@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <SimpleNativeBase/SimpleNativeBase.h>
 #import <SimpleNativeUserPayment/LoginServices.h>
 
@@ -21,6 +22,11 @@
 @end
 
 @interface FacebookThirdUploadLogger<ThirdUploadLoggerProtocol>:NSObject
+@property FBSDKAccessToken * accessToken;
++(instancetype)sharedInstance;
+
+-(void) initTokenWithProID:(NSString *)proID token:(NSString *) clientToken;
+
 @end
 
 //! Project version number for SimpleNativeFacebook.
