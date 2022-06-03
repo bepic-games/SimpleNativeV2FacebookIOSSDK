@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "SimpleNativeV2FacebookIOSSDK"
-  spec.version="0.3.20"
+  spec.version="0.3.21"
   spec.summary= "Simple SDK V2 for include Facebook"
   spec.description= <<-DESC
   Simple SDK V2 for include Facebook, please includ the core sdk more
